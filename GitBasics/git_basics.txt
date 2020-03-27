@@ -1,0 +1,50 @@
+https://www.linkedin.com/feed/update/urn:li:activity:6538012229437091840
+
+Check the Version of git
+git --version
+git config --global user.email "yourGithub@email.com"
+git config --global user.name "yourgithubusername"
+git init  (to initialize the git)
+git status
+dir > test.txt  (created the test file in the directory)
+git add
+git commit -m "....message" 
+git add . (all files will be which has not been added)
+git *.* (add all the files)
+git remote add origin https://github.com/PushpakProject/Repo2.git
+git push -u origin master (push the file to remote)
+git log
+git help
+
+----------------------------------------
+Git Branch & Merge
+=======================
+git branch "branch name"
+git checkout "branch name" (switch to another branch)
+touch text2.txt
+1-git checkout master (merge branch to master)
+2-git merge "branch name"
+
+git branch -d 'Branch Name'  (Delete the branch from local)
+git push origin --delete "branch Name" (Delete remotely)
+
+How to send Email From Github
+=======================
+setting > integration and services>add email> do som chnges
+
+------------------------------------------------------
+Git Tags
+======
+tags are used to mark release point and historic restore point
+git checkout branch name
+git tag 'tag name'
+git tag (to see the tag)
+git tag -a tag name -m "Tag for version"   (annonated tag)
+git show v1.1   (detail of tag)
+git push origin v1.1 (push to remote)
+git push --tags  (for all tags)
+git tag -d v1.0 (delete tags)
+git tag --delete v1.0
+git push origin -d v1.1
+git push origin -d v1.1 v1.0
+
